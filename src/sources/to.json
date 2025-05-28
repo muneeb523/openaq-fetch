@@ -1,0 +1,22 @@
+[
+  {
+    "name": "DGM10 Local Sensor",
+    "adapter": "dgm10-local",
+    "sourceURL": "http://192.168.0.196:8080/data.json",
+    "url": "http://192.168.0.196:8080/data.json",
+    "country": "IN",
+    "city": "Delhi",
+    "location": "My Home Sensor",
+    "description": "Custom air quality sensor exposing JSON data from DGM10",
+    "contacts": ["your-email@example.com"],
+    "active": true,
+    "type": "other",
+    "license": "CC BY 4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+    "mobile": false,
+    "coordinates": {
+      "latitude": 28.6139,
+      "longitude": 77.2090
+    }
+  }
+]
