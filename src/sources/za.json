@@ -23,8 +23,22 @@
     "description": "Air Quality data from South African Department Enviromental Affairs",
     "sourceURL": "http://saaqis.environment.gov.za",
     "contacts": [
-        "info@openaq.org"
+      "info@openaq.org"
     ],
     "active": false
+  },
+  {
+    "sourceURL": "https://airechemistry-public.s3.amazonaws.com/airechemistry_sensor.json",
+    "adapter": "airechemistry",
+    "name": "Airechemistry Harate Sensor",
+    "country": "ZA",
+    "description": "Airechemistry environmental monitoring sensor located in Pretoria, South Africa.",
+    "contacts": ["info@airechemistry.example.com"],
+    "active": true,
+    "type": "research",
+    "city": "Pretoria",
+    "location": "Pretoria",
+    "license": "CC BY 4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/4.0/"
   }
 ]

@@ -1,9 +1,4 @@
-'use strict';
+const fetch = require('./fetch/index.js');
+console.log("✅ index.js started");
 
-// only ES5 is allowed in this file
-//require('@babel/register')();
-
-// other babel configuration, if necessary
-
-// load the server
-require('./fetch');
+fetch.run();
